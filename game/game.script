@@ -1,8 +1,8 @@
 local SECTION_HEIGHT = 609
 local SPEED = 300
 
-local DW = tonumber(sys.get_config("display.width"))
-local DH = tonumber(sys.get_config("display.height"))
+local DW = sys.get_config_number("display.width")
+local DH = sys.get_config_number("display.height")
 
 local FLOWERS = { "factories#flower1", "factories#flower2" }
 
